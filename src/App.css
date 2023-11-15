@@ -18,13 +18,16 @@ a {
   text-decoration: none;
 }
 .background1 {
-  background: url("/public/Noise-Animation.png"),
-    #037f10 0% 0% / 50px 50px repeat;
-  mix-blend-mode: soft-light;
+  background: url("/public/Noise-Animation.png");
+  background: linear-gradient(to bottom, #037f10 0%, black 25%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   display: flex;
   align-items: center;
   flex-direction: column;
   gap: 100px;
+  z-index: 2;
 }
 h1 {
   margin-top: -65px;
