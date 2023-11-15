@@ -1,0 +1,163 @@
+.cuttingEdge {
+  width: 1000px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cuttingEdge > h2 {
+  max-width: 500px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 111.429% */
+  letter-spacing: -3.63px;
+  margin-bottom: 50px;
+}
+.cuttingEdge video {
+  width: 100%;
+  height: auto;
+  border-radius: 21.08px;
+  border: 1px solid #323332;
+}
+.cuttingEdge .customize {
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 21.078px;
+  border: 0.5px solid #131715;
+  background: linear-gradient(
+    180deg,
+    rgba(28, 28, 28, 0.67) 0.03%,
+    rgba(24, 24, 28, 0) 185.98%
+  );
+  backdrop-filter: blur(37px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.cuttingEdge .customize > div {
+  width: 50%;
+}
+.cuttingEdge .customize .left > h3 {
+  margin-left: 32px;
+  color: #fff;
+  text-align: left;
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 57.168px; /* 101.95% */
+  letter-spacing: -1.592px;
+}
+.cuttingEdge .customize .left .icons {
+  display: flex;
+  margin-left: 32px;
+  gap: 15px;
+  margin-top: 15px;
+}
+.cuttingEdge .customize .left .icons h5 {
+  color: #fff;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26.48px; /* 141.708% */
+}
+.cuttingEdge .customize .left .icons p {
+  color: #a0a0a0;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.94px; /* 154.5% */
+  letter-spacing: -0.2px;
+  margin: 6px 0 10px 0;
+}
+.cuttingEdge .customize .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cuttingEdge .customize .right .prompt {
+  width: 360px;
+  background-color: #1c1c1c;
+  border: 1px solid #313131;
+  border-radius: 5px;
+  padding: 20px;
+  > div h5 {
+    color: rgb(103, 104, 122);
+    font-size: 15px;
+  }
+  > p {
+    color: #ddd;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .vector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-image: url("/public/Vectorb.svg");
+    fill: linear-gradient(261deg, #96c93d 0%, #00b09b 100%);
+  }
+}
+.cuttingEdge .customize .right .kid {
+  margin-top: 30px;
+  display: flex;
+  gap: 15px;
+  > img {
+    width: 120px;
+    height: 120px;
+  }
+  .lower {
+    margin-top: 60px;
+  }
+}
+.cuttingEdge .sideImages {
+  margin-top: 20px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  > div {
+    border-radius: 19.68px;
+    border: 0.5px solid #131715;
+    background: linear-gradient(
+      180deg,
+      rgba(28, 28, 28, 0.67) 0.03%,
+      rgba(24, 24, 28, 0) 185.98%
+    );
+    backdrop-filter: blur(37px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    > p {
+      color: #fff;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 30px; /* 141.472% */
+      letter-spacing: -0.934px;
+    }
+  }
+}

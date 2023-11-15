@@ -1,0 +1,21 @@
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.images > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  overflow: hidden;
+  max-width: 98.5vw;
+}
+.images img {
+  width: 270px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 9.055px;
+}

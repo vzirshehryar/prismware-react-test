@@ -1,0 +1,70 @@
+.photoshopAI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.photoshopAI > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.photoshopAI .top h2 {
+  width: 400px;
+  font-size: 44px;
+  color: white;
+  font-family: Inter;
+  height: 70px;
+}
+.photoshopAI .top p {
+  width: 600px;
+  color: #80858f;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.6px; /* 110% */
+  height: 70px;
+}
+.photoshopAI .photo {
+  width: 360px;
+  height: 240px;
+  border-radius: 19.68px;
+  border: 0.5px solid #323232;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 25, 25, 0.51) 0.03%,
+    rgba(24, 24, 28, 0) 185.98%
+  );
+  backdrop-filter: blur(37px);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.photoshopAI .photo img {
+  width: 80px;
+  height: 80px;
+}
+.photoshopAI .photo h5 {
+  margin-left: 20px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.534px; /* 101.95% */
+  letter-spacing: -0.934px;
+}
+
+.photoshopAI .photo p {
+  margin: 0 20px 20px 20px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.845px; /* 133.111% */
+  letter-spacing: -0.217px;
+}

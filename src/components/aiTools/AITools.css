@@ -1,0 +1,60 @@
+.AITools {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  > h2 {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 78px; /* 111.429% */
+    letter-spacing: -3.63px;
+  }
+  > p {
+    width: 600px;
+    color: #80858f;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.6px; /* 110% */
+    margin-bottom: 25px;
+  }
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    > div {
+      display: block;
+    }
+    > div img {
+      width: 350px;
+      height: 300px;
+      object-fit: contain;
+    }
+    > div h5 {
+      color: #fff;
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100.5%; /* 30.44px */
+      letter-spacing: -1.775px;
+    }
+    > div p {
+      margin-top: 10px;
+      color: #bababa;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100.5%; /* 18.03px */
+    }
+  }
+}

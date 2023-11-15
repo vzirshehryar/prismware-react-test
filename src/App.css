@@ -1,0 +1,40 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inter;
+}
+a {
+  color: #f7f8f8;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20.125px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 69px; /* 342.857% */
+  text-decoration: none;
+}
+.background1 {
+  background: url("/public/Noise-Animation.png"),
+    #037f10 0% 0% / 50px 50px repeat;
+  mix-blend-mode: soft-light;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 100px;
+}
+h1 {
+  margin-top: -65px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 111px; /* 114.433% */
+  letter-spacing: -3.63px;
+  max-width: 900px;
+}

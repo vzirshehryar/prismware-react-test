@@ -1,0 +1,32 @@
+.navbar {
+  border: 1px solid rgba(195, 195, 195, 0.21);
+  /* background: rgba(0, 0, 0, 0.13);
+  backdrop-filter: blur(10px); */
+  background-color: #037f10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  width: 100%;
+}
+.navbar .links {
+  display: flex;
+  gap: 40px;
+}
+.navbar button {
+  margin: 0 10px;
+  padding: 5px 10px;
+  border: none;
+  background: none;
+  color: #f7f8f8;
+  font-family: Inter;
+  font-size: 20.125px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 35.19px; /* 174.857% */
+}
+.navbar .signup {
+  border-radius: 15px;
+  background: linear-gradient(261deg, #96c93d 0%, #00b09b 100%),
+    linear-gradient(93deg, #455eb5 9.16%, #5643cc 43.89%, #673fd7 64.72%);
+}

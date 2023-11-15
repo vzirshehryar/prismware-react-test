@@ -1,0 +1,25 @@
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.features > h5 {
+  color: #cfd1d5;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px; /* 150% */
+}
+.features > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.features > div > img {
+  width: 150px;
+  aspect-ratio: auto;
+}

@@ -1,0 +1,71 @@
+.generator {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.generator h2 {
+  max-width: 550px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 55px; /* 111.429% */
+  letter-spacing: -3.63px;
+}
+.generator p {
+  margin-top: 20px;
+  max-width: 850px;
+  color: #80858f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.6px; /* 110% */
+  margin-bottom: 20px;
+}
+.generator .Gcarts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.generatorCart {
+  width: 350px;
+  height: 250px;
+  border-radius: 19.68px;
+  border: 0.5px solid #323232;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 25, 25, 0.51) 0.03%,
+    rgba(24, 24, 28, 0) 185.98%
+  );
+  backdrop-filter: blur(37px);
+}
+.generatorCart h5 {
+  margin-left: 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33.534px; /* 101.95% */
+  letter-spacing: -0.934px;
+  margin-bottom: 5px;
+}
+.generatorCart p {
+  margin: 0;
+  text-align: left;
+  margin-left: 32px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.845px; /* 133.111% */
+  letter-spacing: -0.217px;
+}
